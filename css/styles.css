@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     font-family: "lora", serif;
+    /* overflow: auto; */
 }
 
 html{
@@ -46,7 +47,7 @@ header{
 
 .main{
     height:100vh;
-    /* background-image: url(../assets/berries-2277_1280.jpg); */
+    background-image: url(../assets/berries-2277_1280.jpg);
     background-size: cover;
     background-color: #4F8A8B;
     overflow: auto;
@@ -61,14 +62,17 @@ header{
 
 
 /* Home */
+.HomeTitle{
+    background-color: #4F8A8B;
+}
 .moreInfo{
     display: inline-flex;
 }
 
 .InfoBtn{
-    background-color: #4F8A8B;
+    background-color: #3a6566;
     color: #222831;
-    border:#4F8A8B;
+    border:#3a6566;
     border-radius: 5px;
     margin-left: 15px;
     text-decoration: none;
@@ -124,9 +128,13 @@ footer .redes a{
     letter-spacing: 20px;
 }
 
+/* footer .FooterSmall a{
+    size-adjust: auto;
+} */
 .subir{
     width: 40px;
     height: 40px;
+    text-decoration: none;
     color: #EEEEEE;
     background-color: #222831;
     position: fixed;
@@ -136,6 +144,10 @@ footer .redes a{
     line-height: 40px;
     border-radius: 50%;
     box-shadow: 0 0 5px 5px #222831;
+}
+
+.subir:hover{
+    color: #FBD46D;
 }
 
 /* fin footer */
