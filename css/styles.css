@@ -45,20 +45,12 @@ header{
 }
 
 .main{
-    height: calc(100vh - 80px);
-    width: 100%;
-    background-image: url(../assets/berries-2277_1280.jpg);
+    height:100vh;
+    /* background-image: url(../assets/berries-2277_1280.jpg); */
     background-size: cover;
     background-color: #4F8A8B;
+    overflow: auto;
 }
-.full-width {
-    width: 100%;
-}
-
-.custom-bg{
-    background-color: #3a6566;
-}
-
 .homeContent{
     margin-top: 20px;
 }
@@ -93,6 +85,7 @@ header{
     background-size: cover;
     background-color: #4F8A8B;
     align-items: center;
+    overflow: auto;
 }
 
 /* Clients */
@@ -118,7 +111,7 @@ footer{
     font-size: 25px;
     border-top: 2px solid;
     border-color: #3a6566;
-    
+    align-items: center;
 }
 
 footer p{
@@ -146,20 +139,3 @@ footer .redes a{
 }
 
 /* fin footer */
-
-
-
-/* Up button */
-.subir{
-    width: 40px;
-    height: 40px;
-    color: #EEEEEE;
-    background-color: #222831;
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    box-shadow: 0 0 5px 5px #222831;
-}
