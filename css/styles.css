@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "lora", serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* Config Nav Bar */
+header{
+    background-color: #4F8A8B;
+    height: 80px;
+    font-size: 20px;
+    word-spacing: 10px;
+    border-bottom: 2px solid;
+    border-color: #3a6566;
+}
+
+.logo{
+    float: left;
+    font-family: "caveat", cursive;
+    font-size: 40px;
+    color:#FBD46D;
+    padding: 10px;
+}
+
+.navbar-custom .nav-link {
+    color: #667AA7ff; 
+    font-weight: bold; 
+    padding: 0.5rem 1rem; 
+    margin: 0 0.5rem; 
+    text-transform: uppercase; 
+}
+
+.navbar-custom .nav-link:hover {
+    color: #FBD46D; 
+}
+
+.navbar-custom .nav-link.active {
+    color: #FBD46D;
+}
+
+.main{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-image: url(../assets/berries-2277_1280.jpg);
+    background-size: cover;
+    background-color: #4F8A8B;
+}
+.full-width {
+    width: 100%;
+}
+
+.custom-bg{
+    background-color: #3a6566;
+}
+
+.homeContent{
+    margin-top: 20px;
+}
+
+/* fin header */
+
+
+
+
+/* Home */
+
+
+/* About Us */
+
+
+/* Clients */
+
+
+/* Contact */
+
+
+/* Services */
+
+
+
+
+
+/* inicio footer */
+
+
+footer{
+    background-color:  #4F8A8B;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 30px;    
+    font-size: 25px;
+    border-top: 2px solid;
+    border-color: #3a6566;
+    
+}
+
+footer p{
+    margin-bottom: 20px;
+}
+
+footer .redes a{
+    color: #EEEEEE;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+.subir{
+    width: 40px;
+    height: 40px;
+    color: #EEEEEE;
+    background-color: #222831;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 5px #222831;
+}
+
+/* fin footer */
