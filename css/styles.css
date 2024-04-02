@@ -29,7 +29,7 @@ header{
 }
 
 .navbar-custom .nav-link {
-    color: #667AA7ff; 
+    color: #222831; 
     font-weight: bold; 
     padding: 0.5rem 1rem; 
     margin: 0 0.5rem; 
@@ -69,8 +69,23 @@ header{
 
 
 /* Home */
+.moreInfo{
+    display: inline-flex;
+}
 
+.InfoBtn{
+    background-color: #4F8A8B;
+    color: #222831;
+    border:#4F8A8B;
+    border-radius: 5px;
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 5px;
+}
 
+.InfoBtn:hover{
+    color: #FBD46D;
+}
 /* About Us */
 
 
