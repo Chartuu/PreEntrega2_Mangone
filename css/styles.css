@@ -126,8 +126,39 @@ header{
     margin-bottom: 30px;
 }
 /* Contact */
+.MainContacts{
+    height:100vh;
+    background-image: url(../assets/berries-2277_1280.jpg);
+    background-size: cover;
+    background-color: #4F8A8B;
+    overflow: auto;
+}
+.Title h2{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+    font-family: "caveat", cursive !important;
+    background-color: #FBD46D;
+    padding: 30px;
+}
 
+form{
+    background-color: #FBD46D;
+    margin: 30px;
+    padding: 40px;
+    border-radius: 20px;
+}
 
+.enviar{
+    margin-top: 10px;
+}
+
+.enviar .btn{
+    color: #FBD46D;
+    background-color: #3a6566;
+
+}
 /* Services */
 
 
