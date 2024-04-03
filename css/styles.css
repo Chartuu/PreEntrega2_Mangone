@@ -21,6 +21,15 @@ header{
     border-color: #3a6566;
     position:static;
 }
+.header-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px; 
+    height: 40px; 
+    margin-right:5px; 
+    margin-left: 10px;
+    border-radius: 50%; 
+}
 .navbar-custom {
     background-color:#4F8A8B;
     padding: 10px 0;
