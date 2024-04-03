@@ -64,6 +64,10 @@ header{
 /* Home */
 .HomeTitle{
     background-color: #4F8A8B;
+    border-radius: 20px;
+}
+.HomeTitle span{
+    color: #FBD46D;
 }
 .moreInfo{
     display: inline-flex;
@@ -106,6 +110,7 @@ header{
     align-items: center;
     padding: 15px;
     margin: 20px;
+    border-radius: 20px;
 }
 .imageUser{
     border-radius:50%;
