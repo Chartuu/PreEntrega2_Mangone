@@ -19,41 +19,39 @@ header{
     word-spacing: 10px;
     border-bottom: 2px solid;
     border-color: #3a6566;
+    position:static;
 }
-
-.logo{
+.navbar-custom {
+    background-color:#4F8A8B;
+    padding: 10px 0;
+    
+}
+.navbar-brand{
     float: left;
     font-family: "caveat", cursive;
     font-size: 40px;
     color:#FBD46D;
     padding: 10px;
 }
-
-.navbar-custom .nav-link {
+.navbar-custom, .navbar-custom .navbar-nav .nav-link {
     color: #222831; 
-    font-weight: bold; 
-    padding: 0.5rem 1rem; 
-    margin: 0 0.5rem; 
-    text-transform: uppercase; 
+    padding: 15px; 
+    margin: 3px; 
+    /* text-transform: uppercase;  */
+}
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.navbar-custom .nav-link:hover {
-    color: #FBD46D; 
+.navbar-custom, .navbar-custom .navbar-nav .nav-link:hover {
+    color:#FBD46D;
+    padding: 10px 0; 
+    margin: 0; 
 }
 
-.navbar-custom .nav-link.active {
-    color: #FBD46D;
-}
-
-.main{
-    height:100vh;
-    background-image: url(../assets/berries-2277_1280.jpg);
-    background-size: cover;
-    background-color: #4F8A8B;
-    overflow: auto;
-}
-.homeContent{
-    margin-top: 20px;
+.navbar-custom, .navbar-custom .navbar-nav .nav-link.active {
+    color:#FBD46D;
 }
 
 /* fin header */
@@ -62,9 +60,21 @@ header{
 
 
 /* Home */
+.main{
+    min-height:calc(100vh - 70px - 100px);
+    background-image: url(../assets/berries-2277_1280.jpg);
+    background-size: cover;
+    background-color: #4F8A8B;
+    padding: 30px;
+}
+.homeContent{
+    margin-top: 20px;
+}
+
 .HomeTitle{
     background-color: #4F8A8B;
     border-radius: 20px;
+    margin-top: 20%;
 }
 .HomeTitle span{
     color: #FBD46D;
@@ -86,19 +96,46 @@ header{
 .InfoBtn:hover{
     color: #FBD46D;
 }
+
+
+
+
+
 /* About Us */
 .MainAbUs{
-    height: calc(100vh - 80px);
+    padding: 30px;
+    min-height:calc(100vh - 70px - 100px);
     width: 100%;
     background-size: cover;
     background-color: #4F8A8B;
     align-items: center;
-    overflow: auto;
+    /* overflow: auto; */
 }
+.containerimage{
+    margin-top: 25px;
+    border-radius: 50%;
+}
+.containerbg{
+    background-color: #FBD46D;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 10px;
+}
+.containerbg h2{
+    color:#3a6566;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+
+
 
 /* Clients */
 .ClientsMain{
-    height:100vh;
+    min-height:calc(100vh - 70px - 100px);
     background-size: cover;
     background-color: #4F8A8B;
     align-items: center;
@@ -121,7 +158,7 @@ header{
 
 .UserName{
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .UserText{
@@ -130,9 +167,14 @@ header{
     font-size: 20px;
     margin-bottom: 30px;
 }
+
+
+
+
+
 /* Contact */
 .MainContacts{
-    height:100vh;
+    min-height:calc(100vh - 70px - 100px);
     background-image: url(../assets/berries-2277_1280.jpg);
     background-size: cover;
     background-color: #4F8A8B;
@@ -164,9 +206,49 @@ form{
     background-color: #3a6566;
 
 }
+
+
+
+
+
 /* Services */
+.ServicesMain{
+    min-height:calc(100vh - 70px - 100px);
+    background-size: cover;
+    background-color: #4F8A8B;
+    align-items: center;
+    overflow: auto;
+    padding: 20px;
+}
+.ServiceX{
+    background-color: #FBD46D;
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 20px;
+    height: 500px;
+    max-height: 900px;
+    overflow: auto;
+}
+.imageServ{
+    border-radius:50%;
+    max-width:100px;
+    height: auto;
+    margin: 15px;
+}
 
+.ServName{
+    margin-top: 50px;
+    margin-left: 10px;
+}
 
+.ServText{
+    padding-top: 45px;
+    margin-left: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
 
 
 
@@ -194,9 +276,6 @@ footer .redes a{
     letter-spacing: 20px;
 }
 
-/* footer .FooterSmall a{
-    size-adjust: auto;
-} */
 .subir{
     width: 40px;
     height: 40px;
