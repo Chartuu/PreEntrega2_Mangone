@@ -93,8 +93,38 @@ header{
 }
 
 /* Clients */
+.ClientsMain{
+    height:100vh;
+    background-size: cover;
+    background-color: #4F8A8B;
+    align-items: center;
+    overflow: auto;
+    padding: 20px;
+}
+.UserHistory{
+    background-color: #FBD46D;
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+}
+.imageUser{
+    border-radius:50%;
+    max-width:100px;
+    height: auto;
+    margin: 15px;
+}
 
+.UserName{
+    margin-top: 50px;
+    margin-left: 10px;
+}
 
+.UserText{
+    padding-top: 45px;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
 /* Contact */
 
 
